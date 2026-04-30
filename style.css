@@ -340,12 +340,84 @@ section {
   margin-inline: auto;
 }
 
-/* Footer */
-footer {
-  background: var(--brand);
-  color: #fff;
-  padding: 18px 0;
-  text-align: center;
+.main-footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #ff4d4d; /* لون مميز كالأحمر الإيطالي */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.footer-bottom {
+    width: 100%;
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.developer-credit {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.dev-name {
+    color: #00acee;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.dev-name:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.agency-name {
+    color: #555;
+    font-style: italic;
 }
 
 /* Hamburger Menu & Responsive */
